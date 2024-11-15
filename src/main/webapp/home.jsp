@@ -8,39 +8,7 @@
     <meta charset="utf-8">
     <title>Home</title>
     <style>
-        body {
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        table {
-            margin: 0 auto;
-            border-collapse: collapse;
-            width: 80%;
-        }
-
-        th {
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
-        }
-
-        td {
-            padding: 8px;
-            text-align: center;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-        }
-
-        tbody {
-            background-color: white;
-        }
+        <%@ include file="/css/style.css" %>
     </style>
 </head>
 <body>
